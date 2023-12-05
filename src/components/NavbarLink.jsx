@@ -3,8 +3,7 @@ export default function NavbarLink({ text, url }) {
     <a
       className="
               text-[17px]
-              font-medium 
-              tracking-tight
+              tracking-tighter
               cursor-pointer
               text-[##303031] 
               hover:text-[#71A894]

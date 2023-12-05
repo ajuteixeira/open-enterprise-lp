@@ -7,7 +7,7 @@ export default function Title(props) {
                       text-[#303031]
                       font-normal
                       text-6xl 
-                      leading-10	
+                      leading-12	
                   `}
         >
           {props.children}

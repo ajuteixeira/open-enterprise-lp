@@ -1,5 +1,7 @@
+import SinglePage from "./pages/SinglePage";
+
 function App() {
-  return <h2>Hey</h2>;
+  return <SinglePage />;
 }
 
 export default App;

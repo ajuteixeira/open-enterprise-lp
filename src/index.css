@@ -10,3 +10,8 @@
   font-family: 'Inter', sans-serif;
   background-color: #f9f9f9;
 }
+
+h1,
+h2 {
+  font-family: 'DM Serif Display', serif;
+}

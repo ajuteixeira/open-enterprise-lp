@@ -10,7 +10,7 @@ export default function Button(props) {
       }
       ${
         props.type === "default" &&
-        "px-5  py-5 text-lg tracking-tight rounded-lg"
+        "px-5  py-4 text-lg tracking-tight rounded-lg"
       }
       ${
         props.type === "small" &&

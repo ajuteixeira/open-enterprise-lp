@@ -25,6 +25,18 @@ export default function Title(props) {
           {props.children}
         </h2>
       )}
+      {props.type === "tertiary" && (
+        <h3
+          className={`
+                      text-[#303031]
+                      font-bold
+                      text-2xl
+                      leading-8
+                  `}
+        >
+          {props.children}
+        </h3>
+      )}
     </>
   );
 }

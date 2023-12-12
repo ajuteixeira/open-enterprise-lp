@@ -32,20 +32,23 @@ export default function FirstSection() {
           </div>
         </Card>
         <Card type="default" color="white" align="center">
-          <Image src={iconCard1} alt="" />
-          <Title type="tertiary">Modern workforce</Title>
-          <Text>
-            Multistakeholder governance aligns employees with the organization's
-            wider community.
-          </Text>
+          <Image src={iconCard2} alt="" />
+          <Title type="tertiary">Meritocratic by design</Title>
+          <div className="text-center">
+            <Text>
+              Tokenized ownership aligns deeply committed individuals with the
+              organization's success.
+            </Text>
+          </div>
         </Card>
         <Card type="default" color="white" align="center">
-          <Image src={iconCard1} alt="" />
-          <Title type="tertiary">Modern workforce</Title>
-          <Text>
-            Multistakeholder governance aligns employees with the organization's
-            wider community.
-          </Text>
+          <Image src={iconCard3} alt="" />
+          <Title type="tertiary">Engineered for resilience</Title>
+          <div className="text-center">
+            <Text>
+              Open Enterprise supports best practices in sociocratic management.
+            </Text>
+          </div>
         </Card>
       </div>
     </Container>

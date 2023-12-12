@@ -31,6 +31,7 @@ export default function Title(props) {
                       text-[#303031]
                       font-bold
                       text-2xl
+                      text-center
                       leading-8
                   `}
         >

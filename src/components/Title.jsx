@@ -7,7 +7,6 @@ export default function Title(props) {
                       text-[#303031]
                       font-normal
                       text-6xl 
-                      leading-12	
                   `}
         >
           {props.children}
@@ -19,7 +18,6 @@ export default function Title(props) {
                       text-[#303031]
                       font-normal
                       text-5xl
-                      leading-8
                   `}
         >
           {props.children}
@@ -32,7 +30,6 @@ export default function Title(props) {
                       font-bold
                       text-2xl
                       text-center
-                      leading-8
                   `}
         >
           {props.children}

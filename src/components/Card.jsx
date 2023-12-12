@@ -14,7 +14,7 @@ export default function Card(props) {
       }
       ${
         props.type === "border-shadow" &&
-        "py-7 px-5 flex flex-col rounded-lg border-solid border-4 border-[#303031] shadow-[5px_5px_0px_0px_#71A894]"
+        "min-w-[300px] p-5 mx-32 flex flex-col rounded-lg border-solid border-4 border-[#303031] shadow-[12px_12px_0px_0px_#71A894]"
       }
       ${
         props.align === "center" &&

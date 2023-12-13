@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {},
     fontFamily: {
-      mono: ['"Roboto Mono"'],
+      sans: ["Inter"],
+      mono: ["Roboto Mono"],
     },
   },
   plugins: [],

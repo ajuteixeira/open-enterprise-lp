@@ -29,7 +29,7 @@ export default function SecondSection() {
           <span className="pb-1 font-mono font-bold text-xl">Members</span>
           <div className="pb-2 flex gap-3 items-center">
             <Image src={member1} alt="" type="rounded" />
-            <div className="pb-2 flex flex-col">
+            <div className="flex flex-col">
               <span className="font-mono font-bold">Dillon Kydd</span>
               <span className="font-mono text-[#66645E]">100 SHARES</span>
             </div>
@@ -41,7 +41,7 @@ export default function SecondSection() {
               <span className="font-mono text-[#66645E]">100 SHARES</span>
             </div>
           </div>
-          <div className="flex gap-3 items-center">
+          <div className="pb-2 flex gap-3 items-center">
             <Image src={member3} alt="" type="rounded" />
             <div className="flex flex-col">
               <span className="font-mono font-bold">Kas Moss</span>

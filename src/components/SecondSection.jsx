@@ -29,21 +29,21 @@ export default function SecondSection() {
           <Card type="border-shadow" color="white" align="left">
             <span className="font-mono font-bold text-xl">Members</span>
             <div className="flex gap-3 items-center">
-              <Image src={member1} alt="" />
+              <Image src={member1} alt="" type="rounded" />
               <div className="flex flex-col">
                 <span className="font-mono font-bold">Dillon Kydd</span>
                 <span className="font-mono text-[#66645E]">100 SHARES</span>
               </div>
             </div>
             <div className="flex gap-3 items-center">
-              <Image src={member2} alt="" />
+              <Image src={member2} alt="" type="rounded" />
               <div className="flex flex-col">
                 <span className="font-mono font-bold">Anna Olsen</span>
                 <span className="font-mono text-[#66645E]">100 SHARES</span>
               </div>
             </div>
             <div className="flex gap-3 items-center">
-              <Image src={member3} alt="" />
+              <Image src={member3} alt="" type="rounded" />
               <div className="flex flex-col">
                 <span className="font-mono font-bold">Kas Moss</span>
                 <span className="font-mono text-[#66645E]">100 SHARES</span>

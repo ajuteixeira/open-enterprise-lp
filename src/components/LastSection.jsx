@@ -13,8 +13,8 @@ export default function LastSection() {
           <div className="w-2/3 flex flex-col items-start gap-7">
             <Title type="secondary">Start an Open Enterprise</Title>
             <Text>
-              If you can’t wait to run a new or existing organization on Open
-              Enterprise and are willing to explore and navigate the beta, we’d
+              If you can't wait to run a new or existing organization on Open
+              Enterprise and are willing to explore and navigate the beta, we'd
               love to get you started.
             </Text>
             <Button color="green" type="default">

@@ -14,7 +14,7 @@ export default function Button(props) {
       }
       ${
         props.type === "small" &&
-        "px-5 text-lg py-3 font-mono tracking-tighter rounded-lg"
+        "w-full px-5 py-1 text-md font-mono tracking-tighter rounded-lg"
       }
 `}
     >

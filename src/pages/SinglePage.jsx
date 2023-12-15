@@ -4,6 +4,7 @@ import Hero from "../components/Hero";
 import FirstSection from "../components/FirstSection";
 import LastSection from "../components/LastSection";
 import SecondSection from "../components/SecondSection";
+import ThirdSection from "../components/ThirdSection";
 
 export default function MainPage() {
   return (
@@ -12,6 +13,7 @@ export default function MainPage() {
       <Hero />
       <FirstSection />
       <SecondSection />
+      <ThirdSection />
       <LastSection />
       <Footer />
     </>

@@ -6,15 +6,15 @@ export default function Card(props) {
       ${props.color === "gray" && "bg-[#F3F0EA]"}
       ${
         props.type === "default" &&
-        "py-7 px-5 flex flex-col rounded-lg shadow-[rgba(17,_17,_26,_0.1)_0px_0px_5px]"
+        "py-7 px-5 flex flex-col rounded-xl shadow-[rgba(17,_17,_26,_0.1)_0px_0px_5px]"
       }
       ${
         props.type === "border" &&
-        "py-7 px-5 flex flex-col rounded-lg border-solid border-4 border-[#303031]"
+        "max-w-[350px] p-5 mx-32 flex flex-col rounded-xl border-solid border-4 border-[#303031]"
       }
       ${
         props.type === "border-shadow" &&
-        "min-w-[300px] p-5 mx-32 flex flex-col rounded-lg border-solid border-4 border-[#303031] shadow-[12px_12px_0px_0px_#71A894]"
+        "min-w-[300px] p-5 mx-32 flex flex-col rounded-xl border-solid border-4 border-[#303031] shadow-[12px_12px_0px_0px_#71A894]"
       }
       ${
         props.align === "center" &&

@@ -22,7 +22,7 @@ export default function Card(props) {
       }
       ${
         props.align === "left" &&
-        "flex flex-col items-start justify-center gap-2"
+        "flex flex-col justify-between items-start gap-2"
       }
       ${
         props.align === "between" &&

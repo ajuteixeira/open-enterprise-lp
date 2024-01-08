@@ -5,6 +5,7 @@ import FirstSection from "../components/FirstSection";
 import LastSection from "../components/LastSection";
 import SecondSection from "../components/SecondSection";
 import ThirdSection from "../components/ThirdSection";
+import Fifth from "../components/FifthSection";
 
 export default function MainPage() {
   return (
@@ -14,6 +15,7 @@ export default function MainPage() {
       <FirstSection />
       <SecondSection />
       <ThirdSection />
+      <Fifth />
       <LastSection />
       <Footer />
     </>

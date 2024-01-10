@@ -3,11 +3,13 @@ import Title from "./Title";
 import Text from "./Text";
 import Button from "./Button";
 import Image from "./Image";
+import imgDivider from "../assets/images/divider.png";
 import imgLastsection from "../assets/images/illustration-2.png";
 
 export default function LastSection() {
   return (
     <>
+      <Image src={imgDivider} alt="" />
       <Container>
         <header className="flex justify-between items-center">
           <div className="w-2/3 flex flex-col items-start gap-7">

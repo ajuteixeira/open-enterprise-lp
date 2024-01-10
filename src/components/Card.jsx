@@ -6,7 +6,7 @@ export default function Card(props) {
       ${props.color === "gray" && "bg-[#F3F0EA]"}
       ${
         props.type === "default" &&
-        "py-7 px-5 flex flex-col rounded-xl shadow-[rgba(17,_17,_26,_0.1)_0px_0px_5px]"
+        "w-1/3 py-7 px-5 flex flex-col rounded-xl shadow-[rgba(17,_17,_26,_0.1)_0px_0px_5px]"
       }
       ${
         props.type === "border" &&

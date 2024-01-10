@@ -5,7 +5,7 @@ export default function NavbarLink({ text, url }) {
               text-[17px]
               tracking-tighter
               cursor-pointer
-              text-[##303031] 
+              text-[#303031] 
               hover:text-[#71A894]
           "
       href={url}

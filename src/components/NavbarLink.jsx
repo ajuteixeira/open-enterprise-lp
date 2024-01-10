@@ -7,6 +7,7 @@ export default function NavbarLink({ text, url }) {
               cursor-pointer
               text-[#303031] 
               hover:text-[#71A894]
+              active:text-[#71A894]
           "
       href={url}
     >

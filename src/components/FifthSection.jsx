@@ -26,9 +26,9 @@ export default function FifthSection() {
             that'll help us bridge the gap between our s...
           </span>
           <div className="w-full flex justify-between items-center">
-            <Button color="green" type="small-rounded">
+            <span className="px-3 py-1 text-sm font-mono font-medium tracking-tighter rounded-full text-white bg-[#71A894]">
               5 AUT
-            </Button>
+            </span>
             <span className="font-mono font-bold text-base">
               Apply by May 15
             </span>
@@ -43,9 +43,9 @@ export default function FifthSection() {
             and document answers for our product docs.
           </span>
           <div className="w-full flex justify-between items-center">
-            <Button color="green" type="small-rounded">
+            <span className="px-3 py-1 text-sm font-mono font-medium tracking-tighter rounded-full text-white bg-[#71A894]">
               10 AUT
-            </Button>
+            </span>
             <span className="font-mono font-bold text-base">
               Apply by May 18
             </span>
@@ -60,9 +60,9 @@ export default function FifthSection() {
             to finish on using Open Enterprise.
           </span>
           <div className="w-full flex justify-between items-center">
-            <Button color="green" type="small-rounded">
+            <span className="px-3 py-1 text-sm font-mono font-medium tracking-tighter rounded-full text-white bg-[#71A894]">
               40 AUT
-            </Button>
+            </span>
             <span className="font-mono font-bold text-base">
               Apply by May 20
             </span>

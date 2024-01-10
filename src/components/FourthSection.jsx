@@ -4,7 +4,7 @@ import Text from "./Text";
 import Card from "./Card";
 import Button from "./Button";
 
-export default function FifthSection() {
+export default function FourthSection() {
   return (
     <Container>
       <div className="px-24 pb-7 flex flex-col gap-7 text-center">

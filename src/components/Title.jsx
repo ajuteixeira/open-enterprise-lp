@@ -6,7 +6,8 @@ export default function Title(props) {
           className={`
                       text-[#303031]
                       font-normal
-                      text-6xl 
+                      text-6xl
+                      sm:text-4xl
                   `}
         >
           {props.children}
@@ -18,6 +19,7 @@ export default function Title(props) {
                       text-[#303031]
                       font-normal
                       text-5xl
+                      sm:text-3xl
                   `}
         >
           {props.children}
@@ -30,6 +32,7 @@ export default function Title(props) {
                       font-bold
                       text-2xl
                       text-center
+                      sm:text-lg
                   `}
         >
           {props.children}

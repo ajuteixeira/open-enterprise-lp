@@ -9,8 +9,8 @@ export default function Hero() {
   return (
     <>
       <Container>
-        <header className="flex justify-between items-center">
-          <div className="w-2/3 flex flex-col items-start gap-7">
+        <header className="flex justify-between items-center sm:gap-5">
+          <div className="w-2/3 flex flex-col items-start gap-7 sm:gap-2">
             <Title type="primary">A new model for open collaboration</Title>
             <Text>
               Run an organization where members get rewarded for their
@@ -21,7 +21,7 @@ export default function Hero() {
             </Button>
           </div>
           <div>
-            <Image src={imgHero} alt="" />
+            <Image src={imgHero} alt="" type="default" />
           </div>
         </header>
       </Container>

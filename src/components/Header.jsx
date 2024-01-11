@@ -26,11 +26,13 @@ export default function Header() {
   return (
     <header
       className="
+                px-12
+                py-6
                 flex
                 items-center 
                 justify-between 
-                px-12
-                py-6
+                sm:gap-9
+                sm:px-6
                 "
     >
       <MainLogo />

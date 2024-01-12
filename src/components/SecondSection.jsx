@@ -12,9 +12,9 @@ import member3 from "../assets/images/member-3.png";
 export default function SecondSection() {
   return (
     <Container>
-      <div className="flex justify-start items-center">
-        <div className="w-2/3 flex flex-col gap-7 items-start justify-center">
-          <Image src={icon1} alt="" />
+      <div className="flex justify-start items-center gap-9">
+        <div className="flex flex-col gap-3 items-start justify-center">
+          <Image src={icon1} alt="" type="rounded" />
           <Title type="secondary">
             Kickstart an organization with your co-founders
           </Title>
@@ -30,22 +30,30 @@ export default function SecondSection() {
           <div className="pb-2 flex gap-3 items-center">
             <Image src={member1} alt="" type="rounded" />
             <div className="flex flex-col">
-              <span className="font-mono font-bold">Dillon Kydd</span>
-              <span className="font-mono text-[#66645E]">100 SHARES</span>
+              <span className="font-mono font-bold sm:text-sm">
+                Dillon Kydd
+              </span>
+              <span className="font-mono text-[#66645E] sm:text-sm">
+                100 SHARES
+              </span>
             </div>
           </div>
           <div className="pb-2 flex gap-3 items-center">
             <Image src={member2} alt="" type="rounded" />
             <div className="flex flex-col">
-              <span className="font-mono font-bold">Anna Olsen</span>
-              <span className="font-mono text-[#66645E]">100 SHARES</span>
+              <span className="font-mono font-bold sm:text-sm">Anna Olsen</span>
+              <span className="font-mono text-[#66645E] sm:text-sm">
+                100 SHARES
+              </span>
             </div>
           </div>
           <div className="pb-2 flex gap-3 items-center">
             <Image src={member3} alt="" type="rounded" />
             <div className="flex flex-col">
-              <span className="font-mono font-bold">Kas Moss</span>
-              <span className="font-mono text-[#66645E]">100 SHARES</span>
+              <span className="font-mono font-bold sm:text-sm">Kas Moss</span>
+              <span className="font-mono text-[#66645E] sm:text-sm">
+                100 SHARES
+              </span>
             </div>
           </div>
         </Card>

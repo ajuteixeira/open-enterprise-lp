@@ -11,7 +11,7 @@ import iconCard3 from "../assets/images/card-icon-3.png";
 export default function FirstSection() {
   return (
     <Container>
-      <div className="px-24 pb-7 flex flex-col gap-7 text-center">
+      <div className="px-24 pb-7 flex flex-col gap-3 text-center">
         <Title type="secondary">Reimagining what it means to work</Title>
         <Text>
           Teams and communities using Open Enterprise fundamentally unlock a

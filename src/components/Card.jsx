@@ -10,11 +10,11 @@ export default function Card(props) {
       }
       ${
         props.type === "border" &&
-        "max-w-[350px] p-5 mx-32 flex flex-col rounded-xl border-solid border-4 border-[#303031]"
+        "w-[350px] p-5 flex flex-col rounded-xl border-solid border-4 border-[#303031]"
       }
       ${
         props.type === "border-shadow" &&
-        "min-w-[300px] p-5 mx-32 flex flex-col rounded-xl border-solid border-4 border-[#303031] shadow-[12px_12px_0px_0px_#71A894]"
+        "min-w-[300px] p-5 flex flex-col rounded-xl border-solid border-4 border-[#303031] shadow-[12px_12px_0px_0px_#71A894]"
       }
       ${
         props.align === "center" &&

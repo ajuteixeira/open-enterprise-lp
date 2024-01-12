@@ -11,7 +11,7 @@ import member4 from "../assets/images/member-4.png";
 export default function ThirdSection() {
   return (
     <Container>
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between gap-12">
         <Card type="border" color="white" align="left">
           <div className="pb-2 flex gap-3 items-center">
             <Image src={member4} alt="" type="rounded" />
@@ -44,8 +44,8 @@ export default function ThirdSection() {
             Go to vote
           </Button>
         </Card>
-        <div className="w-1/2 flex flex-col gap-7 items-start justify-center">
-          <Image src={icon2} alt="" />
+        <div className="w-1/2 flex flex-col gap-3 items-start justify-center">
+          <Image src={icon2} alt="" type="rounded" />
           <Title type="secondary">
             Onboard users, investors and advisors as you grow
           </Title>

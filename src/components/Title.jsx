@@ -8,6 +8,7 @@ export default function Title(props) {
                       font-normal
                       text-6xl
                       sm:text-4xl
+                      md:text-5xl
                   `}
         >
           {props.children}
@@ -20,6 +21,7 @@ export default function Title(props) {
                       font-normal
                       text-5xl
                       sm:text-3xl
+                      md:text-4xl
                   `}
         >
           {props.children}

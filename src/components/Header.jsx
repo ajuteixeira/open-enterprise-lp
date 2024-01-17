@@ -33,6 +33,8 @@ export default function Header() {
                 justify-between 
                 sm:gap-9
                 sm:px-6
+                md:px-10
+                md:py-8
                 "
     >
       <MainLogo />

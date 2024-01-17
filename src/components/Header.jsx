@@ -24,19 +24,7 @@ export default function Header() {
   ];
 
   return (
-    <header
-      className="
-                px-12
-                py-6
-                flex
-                items-center 
-                justify-between 
-                sm:gap-9
-                sm:px-6
-                md:px-10
-                md:py-8
-                "
-    >
+    <header className="flex items-center justify-between sm:gap-9 sm:pt-6 md:px-10 md:pt-10 lg:px-16">
       <MainLogo />
       <NavbarItem links={linksHeader} />
     </header>

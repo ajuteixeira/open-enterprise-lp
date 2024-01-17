@@ -10,7 +10,7 @@ export default function Hero() {
     <>
       <Container>
         <header className="flex justify-between items-center sm:gap-5">
-          <div className="w-2/3 flex flex-col items-start gap-7 sm:gap-2">
+          <div className="w-2/3 flex flex-col items-start sm:gap-2 lg:gap-5">
             <Title type="primary">A new model for open collaboration</Title>
             <Text>
               Run an organization where members get rewarded for their

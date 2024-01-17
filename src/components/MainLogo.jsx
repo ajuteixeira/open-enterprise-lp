@@ -6,7 +6,7 @@ export default function MainLogo() {
       src={mainlogo}
       alt="logo"
       title="Logo Open Enterprise"
-      className="sm:w-2/5 md:w-1/3"
+      className="sm:w-2/5 md:w-1/3 lg:w-[281px]"
     />
   );
 }

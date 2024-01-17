@@ -4,11 +4,7 @@ export default function Title(props) {
       {props.type === "primary" && (
         <h1
           className={`
-                      text-[#303031]
-                      font-normal
-                      text-6xl
-                      sm:text-4xl
-                      md:text-5xl
+                      text-[#303031] font-normal sm:text-4xl md:text-5xl lg:text-6xl
                   `}
         >
           {props.children}
@@ -17,11 +13,7 @@ export default function Title(props) {
       {props.type === "secondary" && (
         <h2
           className={`
-                      text-[#303031]
-                      font-normal
-                      text-5xl
-                      sm:text-3xl
-                      md:text-4xl
+                      text-[#303031] font-normal sm:text-3xl md:text-4xl lg:text-5xl
                   `}
         >
           {props.children}
@@ -30,11 +22,7 @@ export default function Title(props) {
       {props.type === "tertiary" && (
         <h3
           className={`
-                      text-[#303031]
-                      font-bold
-                      text-2xl
-                      text-center
-                      sm:text-lg
+                      text-[#303031] font-bold text-center sm:text-lg lg:text-2xl
                   `}
         >
           {props.children}

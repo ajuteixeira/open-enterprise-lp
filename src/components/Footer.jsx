@@ -24,7 +24,7 @@ export default function Footer() {
   ];
   return (
     <>
-      <footer className="px-12 pt-14 pb-8 flex justify-between items-center sm:px-6 sm:pt-7 sm:pb-3 md:px-10">
+      <footer className="flex justify-between items-center sm:px-6 sm:pt-7 sm:pb-3 md:px-10 lg:px-16 lg:pt-14 lg:pb-8">
         <div>
           <SecondaryLogo />
         </div>

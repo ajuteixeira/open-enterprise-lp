@@ -6,7 +6,7 @@ export default function SecondaryLogo() {
       src={seclogo}
       alt="logo"
       title="Logo Open Enterprise"
-      className="sm:w-5/6"
+      className="sm:w-5/6 lg:w-[152px]"
     />
   );
 }

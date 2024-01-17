@@ -12,8 +12,8 @@ import member3 from "../assets/images/member-3.png";
 export default function SecondSection() {
   return (
     <Container>
-      <div className="flex justify-start items-center gap-9">
-        <div className="flex flex-col gap-3 items-start justify-center">
+      <div className="w-full flex justify-between items-center gap-9">
+        <div className="w-1/2 flex flex-col gap-5 items-start justify-center">
           <Image src={icon1} alt="" type="rounded" />
           <Title type="secondary">
             Kickstart an organization with your co-founders
@@ -30,10 +30,10 @@ export default function SecondSection() {
           <div className="pb-2 flex gap-3 items-center">
             <Image src={member1} alt="" type="rounded" />
             <div className="flex flex-col">
-              <span className="font-mono font-bold sm:text-sm">
+              <span className="font-mono font-bold sm:text-sm lg:text-base">
                 Dillon Kydd
               </span>
-              <span className="font-mono text-[#66645E] sm:text-sm">
+              <span className="font-mono text-[#66645E] sm:text-sm lg:text-base">
                 100 SHARES
               </span>
             </div>
@@ -41,8 +41,10 @@ export default function SecondSection() {
           <div className="pb-2 flex gap-3 items-center">
             <Image src={member2} alt="" type="rounded" />
             <div className="flex flex-col">
-              <span className="font-mono font-bold sm:text-sm">Anna Olsen</span>
-              <span className="font-mono text-[#66645E] sm:text-sm">
+              <span className="font-mono font-bold sm:text-sm lg:text-base">
+                Anna Olsen
+              </span>
+              <span className="font-mono text-[#66645E] sm:text-sm lg:text-base">
                 100 SHARES
               </span>
             </div>
@@ -50,8 +52,10 @@ export default function SecondSection() {
           <div className="pb-2 flex gap-3 items-center">
             <Image src={member3} alt="" type="rounded" />
             <div className="flex flex-col">
-              <span className="font-mono font-bold sm:text-sm">Kas Moss</span>
-              <span className="font-mono text-[#66645E] sm:text-sm">
+              <span className="font-mono font-bold sm:text-sm lg:text-base">
+                Kas Moss
+              </span>
+              <span className="font-mono text-[#66645E] sm:text-sm lg:text-base">
                 100 SHARES
               </span>
             </div>

@@ -12,7 +12,7 @@ export default function LastSection() {
       <Image src={imgDivider} alt="" />
       <Container>
         <header className="flex justify-between items-center">
-          <div className="w-2/3 flex flex-col items-start  sm:gap-3 lg:gap-5">
+          <div className="w-2/3 flex flex-col items-start sm:gap-3 lg:gap-5 xl:w-1/2 xl:gap-7">
             <Title type="secondary">Start an Open Enterprise</Title>
             <Text>
               If you can't wait to run a new or existing organization on Open

@@ -13,7 +13,7 @@ export default function SecondSection() {
   return (
     <Container>
       <div className="w-full flex justify-between items-center gap-9">
-        <div className="w-1/2 flex flex-col gap-5 items-start justify-center">
+        <div className="w-1/2 flex flex-col gap-5 items-start justify-center xl:gap-7">
           <Image src={icon1} alt="" type="rounded" />
           <Title type="secondary">
             Kickstart an organization with your co-founders
@@ -26,7 +26,9 @@ export default function SecondSection() {
           </Text>
         </div>
         <Card type="border-shadow" color="white" align="left">
-          <span className="pb-1 font-mono font-bold text-xl">Members</span>
+          <span className="pb-1 font-mono font-bold text-xl xl:pb-3 xl:text-2xl">
+            Members
+          </span>
           <div className="pb-2 flex gap-3 items-center">
             <Image src={member1} alt="" type="rounded" />
             <div className="flex flex-col">

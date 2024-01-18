@@ -6,11 +6,11 @@ export default function Button(props) {
       ${props.color === "black" && "bg-[#303031] text-white font-medium"}
       ${
         props.type === "default" &&
-        "tracking-tight rounded-lg sm:text-sm sm:px-3 sm:py-3 lg:px-5 lg:text-lg"
+        "tracking-tight rounded-lg sm:text-sm sm:px-3 sm:py-3 lg:px-5 lg:text-base xl:text-lg"
       }
       ${
         props.type === "small" &&
-        "w-full px-5 py-1 font-mono tracking-tighter rounded-lg sm:text-sm lg:text-md"
+        "w-full px-5 py-1 font-mono tracking-tighter rounded-lg sm:text-sm lg:text-base xl:px-7 xl:py-2 xl:text-lg"
       }
 `}
     >

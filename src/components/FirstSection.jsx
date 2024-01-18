@@ -11,7 +11,7 @@ import iconCard3 from "../assets/images/card-icon-3.png";
 export default function FirstSection() {
   return (
     <Container>
-      <div className="px-24 pb-7 flex flex-col gap-3 text-center">
+      <div className="px-24 pb-7 flex flex-col gap-3 xl:gap-7 text-center">
         <Title type="secondary">Reimagining what it means to work</Title>
         <Text>
           Teams and communities using Open Enterprise fundamentally unlock a
@@ -20,7 +20,7 @@ export default function FirstSection() {
           organization.
         </Text>
       </div>
-      <div className="flex gap-5 justify-between">
+      <div className="flex gap-5 justify-between xl:gap-10">
         <Card type="default" color="white" align="center">
           <Image src={iconCard1} alt="" />
           <Title type="tertiary">Modern workforce</Title>

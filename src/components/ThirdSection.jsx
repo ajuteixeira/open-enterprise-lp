@@ -11,7 +11,7 @@ import member4 from "../assets/images/member-4.png";
 export default function ThirdSection() {
   return (
     <Container>
-      <div className="flex items-center justify-between gap-12 xl:py-14">
+      <div className="flex flex-col-reverse items-center gap-5 sm:flex-row sm:justify-between sm:gap-9 xl:py-14 xl:gap-16">
         <Card type="border" color="white" align="left">
           <div className="flex flex-col gap-3">
             <div className="pb-2 flex gap-3 items-center">
@@ -52,7 +52,7 @@ export default function ThirdSection() {
             </Button>
           </div>
         </Card>
-        <div className="w-1/2 flex flex-col gap-3 items-start justify-center xl:gap-7">
+        <div className="text-center flex flex-col gap-3 items-center justify-center sm:w-1/2 sm:items-start sm:text-left xl:gap-7">
           <Image src={icon2} alt="" type="rounded" />
           <Title type="secondary">
             Onboard users, investors and advisors as you grow

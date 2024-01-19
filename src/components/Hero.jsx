@@ -9,8 +9,8 @@ export default function Hero() {
   return (
     <>
       <Container>
-        <header className="flex justify-between items-center sm:gap-5">
-          <div className="w-2/3 flex flex-col items-start sm:gap-2 lg:gap-5">
+        <header className="flex flex-col items-center sm:flex-row sm:justify-between sm:gap-5">
+          <div className="flex flex-col items-center text-center gap-2 sm:w-2/3 sm:items-start sm:text-left lg:gap-5">
             <Title type="primary">A new model for open collaboration</Title>
             <Text>
               Run an organization where members get rewarded for their

@@ -12,8 +12,8 @@ import member3 from "../assets/images/member-3.png";
 export default function SecondSection() {
   return (
     <Container>
-      <div className="w-full flex justify-between items-center gap-9">
-        <div className="w-1/2 flex flex-col gap-5 items-start justify-center xl:gap-7">
+      <div className="w-full flex flex-col items-center gap-5 text-center sm:flex-row sm:justify-between sm:text-left sm:gap-9 xl:gap-16">
+        <div className="flex flex-col gap-5 items-center justify-center sm:w-1/2 sm:items-start xl:gap-7">
           <Image src={icon1} alt="" type="rounded" />
           <Title type="secondary">
             Kickstart an organization with your co-founders

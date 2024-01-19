@@ -11,8 +11,8 @@ export default function LastSection() {
     <>
       <Image src={imgDivider} alt="" />
       <Container>
-        <header className="flex justify-between items-center">
-          <div className="w-2/3 flex flex-col items-start sm:gap-3 lg:gap-5 xl:w-1/2 xl:gap-7">
+        <div className="flex flex-col-reverse items-center gap-3 sm:flex-row sm:justify-between">
+          <div className="flex flex-col items-center text-center gap-3 sm:w-2/3 sm:items-start sm:text-left lg:gap-5 xl:w-1/2 xl:gap-7">
             <Title type="secondary">Start an Open Enterprise</Title>
             <Text>
               If you can't wait to run a new or existing organization on Open
@@ -26,7 +26,7 @@ export default function LastSection() {
           <div>
             <Image src={imgLastsection} alt="" />
           </div>
-        </header>
+        </div>
       </Container>
     </>
   );

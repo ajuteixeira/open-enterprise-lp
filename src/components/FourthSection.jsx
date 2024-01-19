@@ -7,7 +7,7 @@ import Button from "./Button";
 export default function FourthSection() {
   return (
     <Container>
-      <div className="px-24 pb-7 flex flex-col gap-3 text-center xl:pb-14 xl:gap-7">
+      <div className="flex flex-col gap-3 text-center pb-5 sm:pb-7 lg:px-24 xl:pb-14 xl:gap-7">
         <Title type="secondary">Help us improve Open Enterprise</Title>
         <Text>
           As an Open Enterprise ourselves, we are actively looking for new
@@ -16,9 +16,9 @@ export default function FourthSection() {
           in our success.
         </Text>
       </div>
-      <div className="flex gap-5 justify-between xl:gap-10">
+      <div className="flex flex-col gap-5 sm:flex-row sm:justify-between xl:gap-10">
         <Card type="default" color="white" align="left">
-          <div className="flex flex-col justify-start xl:gap-7">
+          <div className="flex flex-col justify-between gap-4 xl:gap-7">
             <span className="font-mono font-bold text-base sm:text-sm lg:text-base xl:text-lg">
               Ideate a list of features based on the Sociocracy...
             </span>
@@ -37,7 +37,7 @@ export default function FourthSection() {
           </div>
         </Card>
         <Card type="default" color="white" align="left">
-          <div className="flex flex-col justify-start gap-4 xl:gap-7">
+          <div className="flex flex-col justify-between gap-4 xl:gap-7">
             <span className="font-mono font-bold text-base sm:text-sm lg:text-base xl:text-lg">
               Update documentation with FAQs
             </span>
@@ -56,7 +56,7 @@ export default function FourthSection() {
           </div>
         </Card>
         <Card type="default" color="white" align="left">
-          <div className="flex flex-col justify-start gap-4 xl:gap-7">
+          <div className="flex flex-col justify-between gap-4 xl:gap-7">
             <span className="font-mono font-bold text-base sm:text-sm lg:text-base xl:text-lg">
               Tutorial video series
             </span>
@@ -75,7 +75,7 @@ export default function FourthSection() {
           </div>
         </Card>
       </div>
-      <div className="w-full mt-12 text-center">
+      <div className="w-full text-center mt-6 sm:mt-12 ">
         <Button color="black" type="default">
           View more
         </Button>

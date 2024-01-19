@@ -1,5 +1,5 @@
 import SecondaryLogo from "./SecondaryLogo";
-import NavbarItem from "./NavbarItem";
+import NavbarItemFooter from "./NavbarItemFooter";
 
 export default function Footer() {
   const pathname = window.location.href;
@@ -24,12 +24,12 @@ export default function Footer() {
   ];
   return (
     <>
-      <footer className="flex justify-between items-center sm:px-6 sm:pt-7 sm:pb-3 md:px-10 lg:px-16 lg:pt-14 lg:pb-8 xl:px-40 xl:pb-14">
+      <footer className="flex flex-col items-center gap-1 pt-7 pb-5 sm:px-6 sm:flex-row sm:justify-between sm:pb-3 md:px-10 lg:px-16 lg:pt-14 lg:pb-8 xl:px-40 xl:pb-14">
         <div>
           <SecondaryLogo />
         </div>
         <div>
-          <NavbarItem links={linksFooter} />
+          <NavbarItemFooter links={linksFooter} />
         </div>
       </footer>
     </>

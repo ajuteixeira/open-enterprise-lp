@@ -6,7 +6,7 @@ export default function Button(props) {
       ${props.color === "black" && "bg-[#303031] text-white font-medium"}
       ${
         props.type === "default" &&
-        "tracking-tight rounded-lg sm:text-sm sm:px-3 sm:py-3 lg:px-5 lg:text-base xl:text-lg"
+        "p-3 tracking-tight rounded-lg sm:text-sm lg:px-5 lg:text-base xl:text-lg"
       }
       ${
         props.type === "small" &&

@@ -35,7 +35,7 @@ export default function Header() {
 
   return (
     <>
-      <header className="flex items-center justify-between p-5 sm:gap-9 sm:pt-6 md:px-10 md:pt-10 lg:px-16 xl:px-40 xl:pt-20">
+      <header className="flex items-center justify-between p-7 sm:gap-9 sm:pt-6 md:px-10 md:pt-10 lg:px-16 xl:px-40 xl:pt-20">
         <MainLogo />
         <div className="hidden">
           <NavbarItem links={linksHeader} />

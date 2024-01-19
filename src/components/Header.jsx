@@ -37,7 +37,7 @@ export default function Header() {
     <>
       <header className="flex items-center justify-between p-7 sm:gap-9 sm:pt-6 md:px-10 md:pt-10 lg:px-16 xl:px-40 xl:pt-20">
         <MainLogo />
-        <div className="hidden">
+        <div className="hidden sm:block">
           <NavbarItem links={linksHeader} />
         </div>
         <img className="sm:hidden" onClick={openMenu} src={iconMenu} alt="" />
